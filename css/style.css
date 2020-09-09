@@ -1,0 +1,57 @@
+/*Basic styling form*/
+body {
+  background: url('/images/pexels-stephan-seeber-1054222.jpg') no-repeat center center/cover;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif ;
+  line-height: 1.5em;
+}
+
+form {
+    width: 50%;
+    margin: auto;
+    padding: 40px;
+    margin-top: 20px;
+    background-color: rgba(245, 245, 245, 0.849);
+    font-size: 1.1em;
+}
+
+input[type=text], input[type=password], input[type=email], #country-picker-select, #language-picker-select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 1.0em;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  border: 2px solid #242524;
+}
+
+label {
+  font-weight: 600;
+}
+
+div {
+  margin-top: 5px;
+}
+
+#characters-input-pwd {
+  color: rgb(68, 67, 67);
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  width: 100%;
+  font-size: 1.2em;
+}
+
+button:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
