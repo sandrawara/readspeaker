@@ -56,7 +56,7 @@
     }
 
     if(empty($password_repeated)){
-        echo "Please repeat ypur password\n";
+        echo "Please repeat your password\n";
     }
 
     //Checking for valid password
